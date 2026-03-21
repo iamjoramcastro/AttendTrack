@@ -1,4 +1,4 @@
-var CACHE='attendtrack-v8';
+var CACHE='attendtrack-v12';
 var SHELL=[
   './',
   './index.html',
