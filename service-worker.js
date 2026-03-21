@@ -1,4 +1,4 @@
-var CACHE='attendtrack-v7';
+var CACHE='attendtrack-v8';
 var SHELL=[
   './',
   './index.html',
@@ -79,7 +79,7 @@ self.addEventListener('fetch',function(e){
         return cached;
       }
       return networkFetch.then(function(res){
-        return res||caches.match('./AttendTrack.html');
+        return res||caches.match('./index.html');
       });
     })
   );
