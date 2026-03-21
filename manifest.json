@@ -12,13 +12,13 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "AttendTrackImages/AttendTrack.png",
+      "src": "images/AttendTrack.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "AttendTrackImages/AttendTrack.png",
+      "src": "images/AttendTrack.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -35,7 +35,7 @@
       "url": "./index.html",
       "icons": [
         {
-          "src": "AttendTrackImages/AttendTrack.png",
+          "src": "images/AttendTrack.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -47,7 +47,7 @@
       "url": "./index.html",
       "icons": [
         {
-          "src": "AttendTrackImages/AttendTrack.png",
+          "src": "images/AttendTrack.png",
           "sizes": "96x96",
           "type": "image/png"
         }
