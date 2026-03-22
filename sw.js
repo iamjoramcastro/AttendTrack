@@ -1,4 +1,4 @@
-var CACHE='at-v21';
+var CACHE='at-v22';
 var SHELL=['./','./index.html','./manifest.json','./images/AttendTrack.png','https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/webfonts/fa-solid-900.woff2','https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js','https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js','https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js','https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js','https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js'];
 var FB=['firebaseio.com','googleapis.com','securetoken.googleapis.com','identitytoolkit.googleapis.com','firebase.google.com','firebaseapp.com'];
 function isFB(url){return FB.some(function(d){return url.hostname.includes(d);});}
